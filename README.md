@@ -107,6 +107,6 @@ Hello World!
 
 
 ## Credits
-###### I did not come up with this tutorial by myself-I compiled it from several other pages to work on the current version of MacOS:
+###### I did not come up with this tutorial by myself. I compiled it from several other pages to work on the current version of MacOS:
 * http://mrjoelkemp.com/2012/01/getting-started-with-jni-and-c-on-osx-lion/
 * https://gist.github.com/DmitrySoshnikov/8b1599a5197b5469c8cc07025f600fdb
