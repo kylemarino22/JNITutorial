@@ -14,13 +14,13 @@
 Create a new file HelloWorld.java:
 ```
 class HelloWorld {
-private native void print();
-public static void main(String[] args) {
-new HelloWorld().print();
-}
-static {
-System.loadLibrary("HelloWorld");
-}
+    private native void print();
+    public static void main(String[] args) {
+        new HelloWorld().print();
+    }
+    static {
+        System.loadLibrary("HelloWorld");
+    }
 }
 ```
 
@@ -45,12 +45,12 @@ This will output the following file HelloWorld.h:
 extern "C" {
 #endif
 /*
-* Class:     HelloWorld
-* Method:    print
-* Signature: ()V
-*/
+ * Class:     HelloWorld
+ * Method:    print
+ * Signature: ()V
+ */
 JNIEXPORT void JNICALL Java_HelloWorld_print
-(JNIEnv *, jobject);
+    (JNIEnv *, jobject);
 
 #ifdef __cplusplus
 }
@@ -68,8 +68,8 @@ using namespace std;
 
 JNIEXPORT void JNICALL 
 Java_HelloWorld_print(JNIEnv *, jobject){
-cout << "Hello World!\n";
-return;
+    cout << "Hello World!\n";
+    return;
 }
 ```
 
