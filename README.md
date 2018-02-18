@@ -1,5 +1,6 @@
 # JNI Tutorial (2018)
-###### A list of steps on how to run a C/C++ function from a Java Program on MacOS Sierra. 
+###### A list of steps on how to run a C/C++ function from a Java Program on MacOS Sierra. The example files for ``HelloWorld.java``, ``HelloWorld.h``, and ``HelloWorld.cpp`` are provided.
+
 
 ## Steps
 ###### There are several steps to this tutorial and are as follows:
